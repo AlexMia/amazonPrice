@@ -38,7 +38,7 @@ def sendMail(title, price):
     server.login('ale56.mia@gmail.com', 'jixujmugxcabkpel')
 
     Subject = 'Price fell down!'
-    Body = f'The price for the product {title} fell down to {price} euros, go check it out at {URL}'
+    Body = f'The price for the product {title} fell down to {price} euros, go check it out at {URL}!'
 
     msg = f'Subject: {Subject}\n\n{Body}'
 
